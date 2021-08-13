@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -webkit-pictograph;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie{
+    position: absolute;
+    top: 10%;
+
+    width: 25%;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+
+
+.movie img{
+    width: 100%;
+}
+
+
+.movie:hover {
+    transform: scale(1.2);
+
+}
+
+.movie:hover .hidden{
+    display: block;
+}
+
+
+
+.movie:hover .h{
+    display: block;
+
+}
+
+.movie:hover .oh{
+    display:none;
+
+}
+
+.movie:hover .visible{
+    position: relative;
+    top: -1px;
+}
+
+.movie:hover .visible ul li{
+    transform: scale(1.2);
+    
+    margin: 4px;
+}
+
+
+.info{
+    position: relative;
+    top:-4px;
+    width: 100%;
+    min-height: 0px;
+}
+.visible {
+    
+    transition-duration: .5s;
+    background-color: #192531;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+
+.visible ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.visible ul li{
+    margin-top: 6px;
+    padding-right: 10px;
+    
+}
+
+
+.visible img{
+    height: 30px;
+}
+
+
+.visible .h{
+   display:none ;
+    
+    
+}
+
+.hidden {
+    background-color: #192531;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    padding-left: 25px;
+    padding-top:20px;
+    display: none;
+    transition-duration: .5s;
+    
+    filter: drop-shadow(rgb(25, 37, 49,0.9) 0px -8px 4px );
+
+
+}
+
+
+.hidden h1{
+color: darkgrey;
+    font-size: 1.7em;
+    padding-bottom: 9px;
+
+    
+}
+
+.hidden h2{
+    color: rgb(255, 255, 255);
+        font-size: 1.7em;
+        padding-bottom: 9px;    
+       
+    }
+
+    .hidden p{
+        font-size: 1.3em;
+    }    
