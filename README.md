@@ -5,20 +5,6 @@ The components used in this are only html,css and the other required images.
 The website can be checked out at- https://fidalmathew.github.io/amazonprime-movieanimation/
 
 
-# Contributing to the repository
-# Hacktoberfest
-
-What is it? Click on the poster below to watch the video for more details📽
-
-[![Watch The Video](https://user-images.githubusercontent.com/61582763/94226800-1d0d5d80-ff16-11ea-8097-689ec7b5af69.png)](https://youtu.be/tjH6txTiC6E)
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-
-# Hacktoberfest Practice Pull Requests
-
-Repo for you to raise a Pull Request for practice.
-
-**Just add your name to the alphabetical list and optionally, a link to your GitHub account (In alphabetical order below your letter too)**
 
 ## How to contribute
 
