@@ -118,17 +118,29 @@ body{
 color: darkgrey;
     font-size: 1.7em;
     padding-bottom: 9px;
-
-    
+    padding-right: 10px;
 }
 
 .hidden h2{
     color: rgb(255, 255, 255);
         font-size: 1.7em;
         padding-bottom: 9px;    
-       
+        padding-right: 10px;
     }
 
     .hidden p{
         font-size: 1.3em;
-    }    
+        padding-right: 10px;
+    }
+
+@media only screen and (max-width: 1024px) {
+    .movie {
+        width: 50%;
+    }
+    .movie:hover {
+        transform: scale(1.2);
+    }
+    .movie .hidden{
+        display: block;
+    }
+}
